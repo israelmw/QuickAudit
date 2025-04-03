@@ -50,14 +50,11 @@ select quickaudit_sync_triggers();
 ## 🧠 Usage Example
 
 ```tsx
-import { QuickAuditDashboard } from "@/components/ui/quickaudit-dashboard"
+import { QuickAuditDashboard } from "@/components/quickaudit-dashboard"
 
 export default function AdminPage() {
   return (
-    <QuickAuditDashboard
-      supabaseUrl={process.env.NEXT_PUBLIC_SUPABASE_URL}
-      supabaseKey={process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}
-    />
+    <QuickAuditDashboard />
   )
 }
 ```
@@ -78,7 +75,7 @@ select quickaudit_sync_triggers();
 
 ## 📁 Files included
 
-- `components/ui/quickaudit-dashboard.tsx`: The main dashboard component
+- `components/quickaudit-dashboard.tsx`: The main dashboard component
 - `components.json`: Metadata for ShadCN UI installation
 - `supabase/install_quickaudit.sql`: SQL setup script
 
