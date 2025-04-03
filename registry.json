@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "quickaudit-dashboard",
+      "description": "Dashboard component for QuickAudit for Supabase app",
+      "files": [
+        {
+          "name": "quickaudit-dashboard.tsx",
+          "path": "components/quickaudit-dashboard.tsx"
+        }
+      ]
+    }
+  ]
+}
