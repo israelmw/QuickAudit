@@ -15,10 +15,11 @@ It lets you:
 If your project already uses `shadcn/ui`, you can install QuickAudit via:
 
 ```bash
-npx shadcn-ui@latest add quickaudit-dashboard --from github:israelmw/quickaudit
+
+npx shadcn@latest add https://quickaudit-supa.vercel.app/r/quickaudit-dashboard.json
 ```
 
-This will copy the component into `components/ui/quickaudit-dashboard.tsx`.
+This will copy the component into `components/quickaudit-dashboard.tsx`.
 
 ---
 
