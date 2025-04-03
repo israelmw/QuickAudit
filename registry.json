@@ -1,12 +1,17 @@
 {
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "mi-registro",
+  "homepage": "https://mi-registro.com",
   "items": [
     {
       "name": "quickaudit-dashboard",
-      "description": "Dashboard component for QuickAudit for Supabase app",
+      "type": "registry:component",
+      "title": "QuickAudit Dashboard",
+      "description": "QuickAudit Dashboard is a component for displaying audit information of supabase logs.",
       "files": [
         {
-          "name": "quickaudit-dashboard.tsx",
-          "path": "components/quickaudit-dashboard.tsx"
+          "path": "registry/quickaudit-dashboard/quickaudit-dashboard.tsx",
+          "type": "registry:component"
         }
       ]
     }
